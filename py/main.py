@@ -21,6 +21,7 @@ class DataCleaner:
     
     def get_cleaned_data(self):
         return self.data
+    
 data = pd.read_csv('Electric_Vehicle_Population_data.csv')
 cleaner = DataCleaner(data)
 cleaner.clean_data()
@@ -28,5 +29,4 @@ cleaned_data = cleaner.get_cleaned_data()
 cleaner.convert_all_to_lowercase('Make')
 cleaner.convert_all_to_lowercase('Model')
 cleaner.convert_all_to_lowercase('Electric Utility')
-# Export cleaned data to a new CSV file
 cleaned_data.to_csv('cleaned_data.csv', index=False)
