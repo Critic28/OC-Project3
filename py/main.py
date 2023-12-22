@@ -40,4 +40,4 @@ cleaner.convert_to_lowercase('Model')
 cleaner.convert_to_lowercase('Electric Utility')
 compression_opts = dict(method='zip',
                         archive_name='cleaned_data.csv')
-cleaned_data.to_csv('Kelley_Bronson_4_data_122023.zip', compression=compression_opts)
+cleaned_data.to_csv('cleaned_data.zip', compression=compression_opts)
