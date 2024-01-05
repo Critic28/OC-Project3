@@ -17,8 +17,8 @@ You can either open the folder in a IDE like VSCode or Pycharm and run it manual
 
 ## How to generate a flake8 file
 
-- First you need to install flake8 using pip install flake8
-- Create a directory you want to create the flake8 file in
+- First you need to install flake8 using ```pip install flake8```
+- Create a directory you want to create the flake8 file in by running the command ```mkdir <name>```
 - Run the command ```python3 -m flake8 --docstring-convention google --format=html --htmldir=reports/flake```
 
 - Open the index file in a browser and it will display your report
